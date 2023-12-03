@@ -23,21 +23,32 @@ header {
 .location{
     display: flex; 
     flex: 1;
+    align-items: center;
+    padding-left: 15px;
 }
-
+.location-icono{
+    width: 16px;
+    height: 16px;
+}
 .redes-sociales-lista {
     list-style: none;
     flex:1;
     display: flex;
     justify-content: flex-end;
+    padding-right: 15px;
 }
 
 .redes-sociales-lista li{
     padding: 5px;
 }
 
+.redes-sociales-icono{
+    width: 16px;
+    height: 16px;
+}
 .location span{
     padding: 5px;
+    font-size: 10px;
 }
 
 .navbar{
