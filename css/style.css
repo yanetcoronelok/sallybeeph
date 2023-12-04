@@ -93,7 +93,7 @@ header {
 }
 
 .navbar ul li :hover {
-    background-color: #e3c0ba69;
+    background-color: #7d50487c;
 
     border-radius: 1rem;
     padding: 5px;
@@ -104,7 +104,7 @@ main {
 }
 
 footer {
-    background-color: #e3c0bab4;
+    background-color: #7d50485e;
     position: absolute;
     bottom: 0;
     width: 100%;
@@ -125,7 +125,7 @@ footer div {
 
 .logo-copyright img {
     width: 6.25rem;
-    height: 6.0625rem;    
+    height: 6.0625rem;
 }
 
 .marca-nombre {
@@ -137,7 +137,7 @@ footer div {
     justify-content: center;
 }
 
-.redes-sociales-footer{
+.redes-sociales-footer {
     display: flex;
     align-items: flex-end;
     justify-content: center;
@@ -149,11 +149,76 @@ footer div {
     display: flex;
 }
 
-.redes-sociales-lista-footer li{
+.redes-sociales-lista-footer li {
     padding: 5px;
 }
 
-.redes-sociales-icono-footer{
+.redes-sociales-icono-footer {
     width: 1rem;
     height: 1rem;
+}
+
+main {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.contenedor-principal {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contenedor-principal-titulo {
+    margin-top: 40px;
+}
+
+.contenedor-principal-texto {
+    border-radius: 20px;
+    background-color: #e3c0ba4d;
+    padding: 2rem;
+    margin: 20px 100px 50px 100px;
+}
+
+.contenedor-proyectos-recientes {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contenedor-proyectos-recientes-titulo {
+    margin-top: 30px;
+    margin-bottom: 1.25rem;
+    display: flex;
+}
+
+.contenedor-proyectos-recientes-cards {
+    width: 90%;
+    display: flex;
+    justify-content: space-around;
+    padding: 1rem;
+    background-color: #e3c0ba4d;
+    border-radius: 20px;
+    margin-bottom: 5rem
+}
+
+.proyectos-recientes-card {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+
+.card-img {
+    width: 15rem;
+    height: 20rem;
+    border-radius: 15px;
+    box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.418);
+}
+
+.card-texto-descriptivo {
+    width: 12rem;
+    font-weight: 600;
+    padding-left: 1.5rem;
 }
