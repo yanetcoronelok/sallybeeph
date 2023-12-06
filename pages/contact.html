@@ -40,11 +40,43 @@
 
     </header>
 
-    <main>
-        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Incidunt eaque nam fuga laboriosam libero? Ducimus
-            atque illo suscipit reiciendis, quas sed. Quibusdam saepe rerum vitae necessitatibus accusantium laborum
-            tempora quae.
-        </p>
+    <main class="mapa-formulario">
+        <section class="contenedor-map">
+            <h2 class="contenedor-map-titulo">Where to find us</h2>
+            <p class="contenedor-map-texto">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate
+                provident dolorum veniam ipsa illum
+                quae voluptatum molestiae asperiores soluta iusto accusamus nihil, ullam qui quia debitis recusandae
+                temporibus eveniet cum.</p>
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3348.294848341315!2d-60.65856432355406!3d-32.94322407171709!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95b7ab4147ec6c79%3A0xef571904a496ec32!2sSantiago%20%26%20C%C3%B3rdoba%2C%20S2000%20Rosario%2C%20Santa%20Fe!5e0!3m2!1ses!2sar!4v1701889599629!5m2!1ses!2sar"
+                width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </section>
+
+        <section class="contenedor-formulario">
+            <h2 class="contenedor-formulario-titulo">Let's talk!</h2>
+            <p class="contenedor-formulario-texto"> Complete the next form and we'll contact you!.</p>
+
+                <form method="post" name="formulario-contacto">
+                <input class="input-formulario" type="text" name="Name" placeholder="Name" required>
+                <input class="input-formulario" type="email" name=email placeholder="Email" required>
+                <input class="input-formulario" type="text" name="message-subject" placeholder="Message Subject" required>
+
+                
+
+                <textarea name="message" id="message" cols="30" rows="12" placeholder="Write your message here!"></textarea>
+                <button>Submit Message</button>
+                
+            </form>
+
+
+            <!-- <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3348.294848341315!2d-60.65856432355406!3d-32.94322407171709!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95b7ab4147ec6c79%3A0xef571904a496ec32!2sSantiago%20%26%20C%C3%B3rdoba%2C%20S2000%20Rosario%2C%20Santa%20Fe!5e0!3m2!1ses!2sar!4v1701889599629!5m2!1ses!2sar"
+                width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"></iframe> -->
+
+        </section>
+
     </main>
 
     <footer>
@@ -57,12 +89,14 @@
         <div class="location-footer">
 
             <div class="ubicacion-geografica">
-                <a href="https://www.google.com/maps/" target="_blank"><img class="location-icono-footer" src="../assets/iconos/localizacion.png" alt=""></a>
+                <a href="https://www.google.com/maps/" target="_blank"><img class="location-icono-footer"
+                        src="../assets/iconos/localizacion.png" alt=""></a>
                 <span class="cuidad-pais-nombre">Rosario, Argentina</span>
             </div>
 
             <div class="telefono">
-                <a href="https://www.whatsapp.com/" target="_blank"><img class="whatsapp-icono" src="../assets/iconos/whatsapp.png" alt=""></a>
+                <a href="https://www.whatsapp.com/" target="_blank"><img class="whatsapp-icono"
+                        src="../assets/iconos/whatsapp.png" alt=""></a>
                 <span class="telefono-numero">+54-341-12-123-1234</span>
             </div>
 
