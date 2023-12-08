@@ -94,7 +94,6 @@ header {
 
 .navbar ul li :hover {
     background-color: #7d50487c;
-
     border-radius: 1rem;
     padding: 5px;
 }
@@ -360,6 +359,8 @@ form {
     display: flex;
     flex-direction: column;
     padding: 20px;
+    width: 70%;
+    margin-bottom: 40px;
 }
 
 form input {
@@ -386,6 +387,7 @@ form button {
     border-radius: 15px;
     width: 75%;
     align-self: center;
+    margin: 10px;
 }
 
 
