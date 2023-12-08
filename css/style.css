@@ -448,3 +448,99 @@ form button {
     margin: 15px;
     padding: 5px;
 }
+
+
+.contenedor-portfolio-titulo {
+    margin: 20px;
+    display: flex;
+    justify-content: center;
+
+}
+
+.contenedor-portfolio-lista {
+    display: flex;
+    flex: 1;
+    flex-direction: row;
+    justify-content: center;
+    font-weight: 500;
+}
+
+.portfolio-lista {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 50px;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+    list-style: none;
+    text-decoration: none;
+}
+
+.portfolio-lista li :hover {
+    background-color: #7d50487c;
+    border-radius: 1rem;
+    padding: 5px;
+    text-decoration: none;
+    color: white;
+}
+
+.portfolio-lista li a {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+}
+
+.portfolio-album {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 15px 0px 30px 0px; 
+}
+
+.portfolio-album-columa1 {
+    flex: 2;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    margin: 0.5%;
+    /* background-color: #e3c0ba2c; */
+    margin-left: 10rem;
+
+}
+
+.portfolio-album-columa2 {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* margin: 0.5%; */
+    /* background-color: #e3c0ba2c; */
+    padding: 10px 0px 10px 0px;
+}
+
+.portfolio-album-columa3 {
+    flex: 2;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    margin: 0.5%;
+    /* background-color: #e3c0ba2c; */
+    margin-right: 10rem;
+}
+
+.porfolio-galeria-horizontal {
+    border-radius: 10px;
+    height: 16rem;
+    width: 27rem;
+    margin: 1%;
+    box-shadow: 5px 5px 5px grey;
+}
+
+.porfolio-galeria-vertical {
+    height: 32rem;
+    width: 25rem;
+    margin: 1%;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px grey;
+}
